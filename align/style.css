@@ -18,9 +18,11 @@ html {
     grid-gap: 10px;
     grid-template-columns: repeat(4, 80px);
     grid-template-rows: repeat(3,100px);
-    justify-content: center;
-    align-content: end;
+    align-content: space-around;
+    justify-content: space-between;
   }
+  
+  
   
   .box {
     background-color: #444;
@@ -42,7 +44,5 @@ html {
   .item3 {
     grid-column: 3 / 5;
   }
-  
-  
   
   
